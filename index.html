@@ -526,12 +526,26 @@
       border-color: rgba(134, 239, 172, 0.16);
     }
 
-    .tone-dark .light-card .section-head h2,
+    .tone-dark .light-card {
+      color: var(--ink);
+    }
+
+    .tone-dark .light-card .section-head h2 {
+      color: #0f172a !important;
+      text-shadow: none;
+    }
+
     .tone-dark .light-card .section-head p,
-    .tone-dark .light-card .small,
-    .tone-dark .light-card .bar-meta,
     .tone-dark .light-card .bar-meta span:first-child {
-      color: var(--ink) !important;
+      color: #334155 !important;
+    }
+
+    .tone-dark .light-card .small {
+      color: #475569 !important;
+    }
+
+    .tone-dark .light-card .bar-meta {
+      color: #0f172a !important;
     }
 
     .tone-dark .light-card .eyebrow {
@@ -541,7 +555,12 @@
     }
 
     .tone-dark .light-card .bar-meta span:last-child {
-      color: var(--green) !important;
+      color: #16a34a !important;
+      font-weight: 900;
+    }
+
+    .tone-dark .light-card .divider {
+      background: linear-gradient(90deg, transparent, rgba(15, 23, 42, 0.16), transparent);
     }
 
     .card {
@@ -1750,4 +1769,5 @@
   </script>
 </body>
 </html>
+
 
