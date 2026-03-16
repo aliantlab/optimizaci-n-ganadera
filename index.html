@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Plataforma Inteligente de Optimización Ganadera</title>
-  <meta name="description" content="Versión web moderna, visual e interactiva de la propuesta de desarrollo tecnológico para la Plataforma Inteligente de Optimización Ganadera." />
+  <title>Propuesta de Arranque Inteligente · App Ganadera para Carlos</title>
+  <meta name="description" content="Propuesta visual en HTML + CSS para presentar a Carlos una forma más fácil, clara y segura de arrancar la app ganadera, con pagos entendibles, beneficios concretos y contrato completo." />
   <style>
     :root {
       --cream: #f8fafc;
@@ -38,9 +38,7 @@
       -webkit-tap-highlight-color: transparent;
     }
 
-    html {
-      scroll-behavior: smooth;
-    }
+    html { scroll-behavior: smooth; }
 
     body {
       margin: 0;
@@ -51,7 +49,7 @@
     }
 
     body::before {
-      content: "CONFIDENCIAL · USO EXCLUSIVO";
+      content: "PROPUESTA PRIVADA · CARLOS";
       position: fixed;
       inset: 0;
       display: grid;
@@ -66,12 +64,7 @@
     }
 
     a { color: inherit; }
-
-    img {
-      max-width: 100%;
-      display: block;
-      pointer-events: none;
-    }
+    img { max-width: 100%; display: block; pointer-events: none; }
 
     .wrap {
       position: relative;
@@ -182,9 +175,7 @@
       box-shadow: 0 18px 38px rgba(251, 191, 36, 0.22);
     }
 
-    section {
-      padding: 34px 0;
-    }
+    section { padding: 34px 0; }
 
     .hero {
       position: relative;
@@ -193,8 +184,8 @@
       align-items: end;
       padding: 132px 0 34px;
       background:
-        linear-gradient(rgba(15, 23, 42, 0.7), rgba(15, 23, 42, 0.84)),
-        url('https://images.unsplash.com/photo-1570042225831-d98fa7577f1e?q=80&w=2070&auto=format&fit=crop') center/cover no-repeat;
+        linear-gradient(rgba(15, 23, 42, 0.72), rgba(15, 23, 42, 0.86)),
+        url('https://images.unsplash.com/photo-1500595046743-cd271d694d30?q=80&w=2070&auto=format&fit=crop') center/cover no-repeat;
       background-attachment: fixed;
       overflow: hidden;
     }
@@ -285,14 +276,14 @@
       line-height: 0.92;
       letter-spacing: -0.05em;
       margin-top: 18px;
-      max-width: 12ch;
+      max-width: 11ch;
     }
 
     .hero-lead {
       margin-top: 18px;
       font-size: clamp(1rem, 2vw, 1.14rem);
       line-height: 1.8;
-      max-width: 64ch;
+      max-width: 66ch;
       color: rgba(255,255,255,0.84);
     }
 
@@ -334,13 +325,7 @@
       line-height: 1.48;
     }
 
-    .stack,
-    .ring-wrap,
-    .grid-2,
-    .grid-3,
-    .grid-4,
-    .pricing-grid,
-    .analytics-strip {
+    .stack, .ring-wrap, .grid-2, .grid-3, .grid-4, .pricing-grid, .analytics-strip {
       display: grid;
       gap: 18px;
     }
@@ -351,30 +336,14 @@
     .pricing-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
     .analytics-strip { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 
-    .info-card,
-    .ring-card,
-    .card,
-    .analytics-item,
-    .revenue-box,
-    .price-note {
+    .info-card, .ring-card, .card, .analytics-item, .revenue-box, .price-note {
       background: var(--paper);
       border: 1px solid var(--line);
       box-shadow: var(--shadow-sm);
-    }
-
-    .info-card,
-    .ring-card,
-    .card,
-    .analytics-item,
-    .revenue-box,
-    .price-note {
       border-radius: var(--radius-lg);
     }
 
-    .info-card {
-      padding: 18px;
-    }
-
+    .info-card { padding: 18px; }
     .info-card .label {
       color: var(--ink-muted);
       font-size: 0.8rem;
@@ -383,7 +352,6 @@
       margin-bottom: 6px;
       font-weight: 800;
     }
-
     .info-card .value {
       font-size: 1.06rem;
       font-weight: 800;
@@ -430,35 +398,14 @@
       color: var(--ink);
     }
 
-    .ring small {
-      color: var(--ink-muted);
-      font-size: 0.82rem;
-    }
+    .ring small { color: var(--ink-muted); font-size: 0.82rem; }
 
-    .ring-copy h3 {
-      font-size: 1.12rem;
-      margin-bottom: 8px;
-      letter-spacing: -0.02em;
-    }
+    .ring-copy h3 { font-size: 1.12rem; margin-bottom: 8px; letter-spacing: -0.02em; }
+    .ring-copy p { color: var(--ink-soft); line-height: 1.7; font-size: 0.96rem; }
 
-    .ring-copy p {
-      color: var(--ink-soft);
-      line-height: 1.7;
-      font-size: 0.96rem;
-    }
-
-    .section-shell {
-      padding: 24px 0;
-    }
-
-    .tone-light {
-      background: transparent;
-    }
-
-    .tone-soft {
-      background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%);
-    }
-
+    .section-shell { padding: 24px 0; }
+    .tone-light { background: transparent; }
+    .tone-soft { background: linear-gradient(180deg, #ffffff 0%, #f8fafc 100%); }
     .tone-band {
       background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
       border-top: 1px solid rgba(15, 23, 42, 0.04);
@@ -468,7 +415,7 @@
     .tone-dark {
       background:
         linear-gradient(rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.92)),
-        url('https://images.unsplash.com/photo-1543160759-3388a1074e64?q=80&w=2070&auto=format&fit=crop') center/cover no-repeat;
+        url('https://images.unsplash.com/photo-1516467508483-a7212febe31a?q=80&w=2070&auto=format&fit=crop') center/cover no-repeat;
       color: white;
       position: relative;
       overflow: hidden;
@@ -509,16 +456,12 @@
     .tone-dark .phase,
     .tone-dark .small,
     .tone-dark .bar-meta,
-    .tone-dark .bar-meta span:last-child {
-      color: white;
-    }
+    .tone-dark .bar-meta span:last-child { color: white; }
 
     .tone-dark .section-head p,
     .tone-dark .small,
     .tone-dark .phase p,
-    .tone-dark .bar-meta span:first-child {
-      color: rgba(255,255,255,0.74);
-    }
+    .tone-dark .bar-meta span:first-child { color: rgba(255,255,255,0.74); }
 
     .tone-dark .eyebrow {
       background: rgba(34, 197, 94, 0.14);
@@ -526,27 +469,11 @@
       border-color: rgba(134, 239, 172, 0.16);
     }
 
-    .tone-dark .light-card {
-      color: var(--ink);
-    }
-
-    .tone-dark .light-card .section-head h2 {
-      color: #0f172a !important;
-      text-shadow: none;
-    }
-
+    .tone-dark .light-card .section-head h2,
     .tone-dark .light-card .section-head p,
-    .tone-dark .light-card .bar-meta span:first-child {
-      color: #334155 !important;
-    }
-
-    .tone-dark .light-card .small {
-      color: #475569 !important;
-    }
-
-    .tone-dark .light-card .bar-meta {
-      color: #0f172a !important;
-    }
+    .tone-dark .light-card .small,
+    .tone-dark .light-card .bar-meta,
+    .tone-dark .light-card .bar-meta span:first-child { color: var(--ink) !important; }
 
     .tone-dark .light-card .eyebrow {
       background: rgba(21, 128, 61, 0.1);
@@ -554,14 +481,7 @@
       border-color: rgba(21, 128, 61, 0.12);
     }
 
-    .tone-dark .light-card .bar-meta span:last-child {
-      color: #16a34a !important;
-      font-weight: 900;
-    }
-
-    .tone-dark .light-card .divider {
-      background: linear-gradient(90deg, transparent, rgba(15, 23, 42, 0.16), transparent);
-    }
+    .tone-dark .light-card .bar-meta span:last-child { color: var(--green) !important; }
 
     .card {
       position: relative;
@@ -582,8 +502,7 @@
       pointer-events: none;
     }
 
-    .metric-card strong,
-    .pill-number {
+    .metric-card strong, .pill-number {
       display: block;
       color: var(--green);
       font-size: 2rem;
@@ -592,18 +511,13 @@
       line-height: 1;
     }
 
-    .metric-card h3,
-    .card h3,
-    .price-card h3 {
+    .metric-card h3, .card h3, .price-card h3 {
       font-size: 1.08rem;
       margin-bottom: 8px;
       letter-spacing: -0.02em;
     }
 
-    .metric-card p,
-    .card p,
-    .card li,
-    .small {
+    .metric-card p, .card p, .card li, .small {
       color: var(--ink-soft);
       line-height: 1.72;
     }
@@ -617,8 +531,7 @@
       background: white;
     }
 
-    .compare-table th,
-    .compare-table td {
+    .compare-table th, .compare-table td {
       padding: 16px 15px;
       text-align: left;
       vertical-align: top;
@@ -652,9 +565,7 @@
     .chip.mid { background: var(--gold-soft); color: #854d0e; }
     .chip.no { background: var(--danger-soft); color: var(--danger); }
 
-    .scope-list,
-    .bullet-list,
-    .plan-list {
+    .scope-list, .bullet-list, .plan-list {
       list-style: none;
       padding: 0;
       margin: 0;
@@ -662,9 +573,7 @@
       gap: 12px;
     }
 
-    .scope-list li,
-    .bullet-list li,
-    .plan-list li {
+    .scope-list li, .bullet-list li, .plan-list li {
       position: relative;
       padding: 15px 16px 15px 42px;
       background: #f8fafc;
@@ -672,9 +581,7 @@
       border-radius: 18px;
     }
 
-    .scope-list li::before,
-    .bullet-list li::before,
-    .plan-list li::before {
+    .scope-list li::before, .bullet-list li::before, .plan-list li::before {
       content: "✓";
       position: absolute;
       left: 14px;
@@ -748,11 +655,7 @@
       margin-bottom: 10px;
     }
 
-    .phase-top h3 {
-      font-size: 1.08rem;
-      letter-spacing: -0.02em;
-    }
-
+    .phase-top h3 { font-size: 1.08rem; letter-spacing: -0.02em; }
     .phase-top span {
       padding: 7px 10px;
       border-radius: 999px;
@@ -764,16 +667,8 @@
       text-transform: uppercase;
     }
 
-    .bar-chart {
-      display: grid;
-      gap: 14px;
-    }
-
-    .bar-row {
-      display: grid;
-      gap: 8px;
-    }
-
+    .bar-chart { display: grid; gap: 14px; }
+    .bar-row { display: grid; gap: 8px; }
     .bar-meta {
       display: flex;
       justify-content: space-between;
@@ -782,13 +677,8 @@
       font-weight: 800;
     }
 
-    .bar-meta span:last-child {
-      color: var(--green);
-    }
-
-    .tone-dark .bar-meta span:last-child {
-      color: #bbf7d0;
-    }
+    .bar-meta span:last-child { color: var(--green); }
+    .tone-dark .bar-meta span:last-child { color: #bbf7d0; }
 
     .bar-track {
       height: 12px;
@@ -812,9 +702,7 @@
       transform-origin: left center;
     }
 
-    .pricing-grid {
-      align-items: stretch;
-    }
+    .pricing-grid { align-items: stretch; }
 
     .price-card {
       position: relative;
@@ -837,12 +725,13 @@
     .price-card.featured .amount,
     .price-card.featured .sub,
     .price-card.featured li,
-    .price-card.featured .price-note {
-      color: white;
-    }
+    .price-card.featured .price-note,
+    .price-card.featured .mini-copy,
+    .price-card.featured .contract-mini { color: white; }
 
     .price-card.featured .bullet-list li,
-    .price-card.featured .price-note {
+    .price-card.featured .price-note,
+    .price-card.featured .contract-mini {
       background: rgba(255,255,255,0.06);
       border-color: rgba(255,255,255,0.08);
     }
@@ -932,7 +821,7 @@
       font-size: clamp(2rem, 4vw, 3.25rem);
       line-height: 0.96;
       letter-spacing: -0.05em;
-      max-width: 14ch;
+      max-width: 15ch;
       margin-bottom: 14px;
     }
 
@@ -999,17 +888,8 @@
       display: none;
     }
 
-    .security-banner strong {
-      display: block;
-      color: #86efac;
-      margin-bottom: 5px;
-    }
-
-    .security-banner p {
-      color: rgba(255,255,255,0.78);
-      line-height: 1.5;
-      font-size: 0.9rem;
-    }
+    .security-banner strong { display: block; color: #86efac; margin-bottom: 5px; }
+    .security-banner p { color: rgba(255,255,255,0.78); line-height: 1.5; font-size: 0.9rem; }
 
     .live-chip {
       position: fixed;
@@ -1046,6 +926,39 @@
       margin: 10px 0 0;
     }
 
+    .advantage-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.78rem;
+      font-weight: 900;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 8px 11px;
+      border-radius: 999px;
+      background: rgba(21, 128, 61, 0.08);
+      color: var(--green);
+      border: 1px solid rgba(21, 128, 61, 0.1);
+      margin-bottom: 10px;
+    }
+
+    .contract-mini {
+      margin-top: 14px;
+      padding: 14px 15px;
+      border-radius: 18px;
+      background: #f8fafc;
+      border: 1px solid rgba(15, 23, 42, 0.06);
+      color: var(--ink-soft);
+      font-size: 0.92rem;
+      line-height: 1.62;
+    }
+
+    .mini-copy {
+      font-size: 0.92rem;
+      line-height: 1.62;
+      color: var(--ink-soft);
+    }
+
     @keyframes grow {
       from { transform: scaleX(0); }
       to { transform: scaleX(1); }
@@ -1078,10 +991,7 @@
     }
 
     @media (max-width: 780px) {
-      .hero {
-        background-attachment: scroll;
-        padding-top: 118px;
-      }
+      .hero { background-attachment: scroll; padding-top: 118px; }
 
       .hero-grid,
       .grid-4,
@@ -1090,9 +1000,7 @@
       .pricing-grid,
       .analytics-strip,
       .ring-grid,
-      .hero-points {
-        grid-template-columns: 1fr;
-      }
+      .hero-points { grid-template-columns: 1fr; }
 
       .nav {
         min-height: 74px;
@@ -1100,26 +1008,13 @@
         align-items: start;
       }
 
-      .menu {
-        display: none;
-      }
-
-      .section-head h2,
-      .cta h2,
-      h1 {
-        max-width: none;
-      }
-
-      .live-chip {
-        top: auto;
-        bottom: 86px;
-      }
+      .menu { display: none; }
+      .section-head h2, .cta h2, h1 { max-width: none; }
+      .live-chip { top: auto; bottom: 86px; }
     }
 
     @media print {
-      html, body {
-        display: none !important;
-      }
+      html, body { display: none !important; }
     }
   </style>
 </head>
@@ -1127,50 +1022,52 @@
   <header class="topbar">
     <div class="wrap nav">
       <div class="brand">
-        <div class="brand-badge">AG</div>
+        <div class="brand-badge">CG</div>
         <div class="brand-text">
-          <strong>Plataforma Inteligente de Optimización Ganadera</strong>
-          <span>Propuesta visual · UX de alto impacto · versión web</span>
+          <strong>Propuesta de Arranque Gradual · App Ganadera</strong>
+          <span>Versión web · clara, visual y lista para presentar</span>
         </div>
       </div>
       <nav class="menu">
-        <a href="#potencial">Potencial</a>
-        <a href="#alcance">MVP</a>
-        <a href="#roadmap">Roadmap</a>
-        <a href="#inversion">Inversión</a>
-        <a href="#monetizacion">Monetización</a>
-        <a class="btn-primary" href="#contacto">Quiero avanzar</a>
+        <a href="#ventajas">Ventajas</a>
+        <a href="#alcance">Primera etapa</a>
+        <a href="#pagos">Pagos</a>
+        <a href="#contrato">Contrato</a>
+        <a href="#siguientes">Siguiente paso</a>
+        <a class="btn-primary" href="#siguientes">Quiero avanzar</a>
       </nav>
     </div>
   </header>
+
+ 
 
   <main>
     <section class="hero">
       <div class="wrap hero-grid">
         <article class="panel hero-card">
-          <div class="eyebrow">Propuesta de desarrollo tecnológico</div>
-          <h1>Digitalizar el método experto de Carlos.</h1>
+          <div class="eyebrow">Propuesta comercial optimizada</div>
+          <h1>Entrar sin ahogarse, validar rápido y dejar el negocio bien amarrado.</h1>
           <p class="hero-lead">
-            Esta propuesta convierte un know-how ganadero valioso, hoy disperso entre experiencia y documentos, en una plataforma SaaS clara, escalable y comercializable. El sistema recibirá pocos datos, procesará indicadores expertos y entregará recomendaciones prácticas de dieta con impacto económico visible.
+            Con esta propuesta es más fácil dar el paso: no tendrá que meterse de entrada en una inversión pesada, arrancará con una primera versión útil y concreta, sabrá exactamente qué se hará primero y tendrá un esquema de pagos que cuidará su caja sin desordenar el desarrollo. La lógica será simple: empezar con inteligencia, mostrar valor pronto y dejar por contrato una ruta seria para crecer.
           </p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#inversion">Ver inversión</a>
-            <a class="btn" href="#roadmap">Explorar roadmap</a>
+            <a class="btn btn-primary" href="#pagos">Ver esquema de pago</a>
+            <a class="btn" href="#contrato">Ver formalización</a>
           </div>
 
           <div class="hero-points">
             <div class="mini-stat">
-              <strong>29,5 M</strong>
-              <span>Cabezas de ganado en Colombia como contexto del mercado objetivo.</span>
+              <strong>$1,5 M</strong>
+              <span>Entrada razonable para ordenar el proyecto antes de invertir más duro.</span>
             </div>
             <div class="mini-stat">
-              <strong>613.000</strong>
-              <span>Predios ganaderos activos que evidencian una oportunidad real de adopción.</span>
+              <strong>$2,8 M</strong>
+              <span>Piso mensual claro para construir la primera versión con foco, continuidad y sin enredos.</span>
             </div>
             <div class="mini-stat">
-              <strong>11–14 sem</strong>
-              <span>Tiempo estimado para pasar de definición estratégica a despliegue inicial.</span>
+              <strong>10%–15%</strong>
+              <span>Residual medido para recuperar el proyecto sin volverle pesado el inicio.</span>
             </div>
           </div>
         </article>
@@ -1178,32 +1075,32 @@
         <aside class="panel author-card">
           <div class="stack">
             <div class="info-card">
-              <div class="label">Preparado para</div>
-              <div class="value">Carlos · Experto Ganadero</div>
+              <div class="label">Presentado a</div>
+              <div class="value">Carlos · Proyecto app ganadera</div>
             </div>
             <div class="info-card">
-              <div class="label">Preparado por</div>
-              <div class="value">William Pardo · Especialista en IA, Diseñador y Growth Partner</div>
+              <div class="label">Objetivo</div>
+              <div class="value">Hacer viable el proyecto para Carlos sin meterlo de golpe en una carga difícil de sostener.</div>
             </div>
             <div class="info-card">
-              <div class="label">Objetivo central</div>
-              <div class="value">Empaquetar el método experto en un sistema digital funcional, accesible y protegible.</div>
+              <div class="label">Enfoque</div>
+              <div class="value">Primera versión útil, pagos fáciles de entender, contrato claro y crecimiento por etapas.</div>
             </div>
           </div>
 
           <div class="ring-wrap">
             <div class="ring-card">
               <div class="ring-grid">
-                <div class="ring" style="--value:84">
+                <div class="ring" style="--value:82">
                   <span>
-                    <b>84%</b>
-                    <small>Enfoque en valor</small>
+                    <b>82%</b>
+                    <small>Entrada más liviana</small>
                   </span>
                 </div>
                 <div class="ring-copy">
-                  <h3>Lo que de verdad le dejará valor al ganadero</h3>
+                  <h3>Beneficio inmediato para Carlos</h3>
                   <p>
-                    Aquí no se tratará de tener una app bonita. Se tratará de que el sistema mire los datos del hato y le sugiera a Carlos qué mover en la comida para buscar mejor peso, mejor leche y mejor margen en plata.
+                    En vez de asumir de una vez una app completa, podrá arrancar con una etapa mucho más manejable, con menos presión de caja y con una ruta clara para ver resultados antes de escalar.
                   </p>
                 </div>
               </div>
@@ -1211,16 +1108,17 @@
 
             <div class="ring-card">
               <div class="ring-grid">
-                <div class="ring" style="--value:76">
+                <div class="ring" style="--value:77">
                   <span>
-                    <b>76%</b>
-                    <small>Escalabilidad</small>
+                    <b>77%</b>
+                    <small>Riesgo más</small> 
+		    <small>controlado</small>
                   </span>
                 </div>
                 <div class="ring-copy">
-                  <h3>Cómo el conocimiento de Carlos se vuelve negocio</h3>
+                  <h3>Seguridad para ambas partes</h3>
                   <p>
-                    Lo que hoy Carlos resuelve con experiencia, ojo ganadero y años de campo, la plataforma lo irá ordenando para que más fincas reciban esa misma orientación sin depender de que él tenga que estar encima de cada caso todo el tiempo.
+                    Todo quedará amarrado a etapas, responsabilidades, pagos y reglas de trabajo. Eso bajará la confusión, reducirá el desgaste y hará mucho más fácil ejecutar bien.
                   </p>
                 </div>
               </div>
@@ -1230,96 +1128,94 @@
       </div>
     </section>
 
-    <section id="potencial" class="section-shell tone-light">
+    <section id="ventajas" class="section-shell tone-light">
       <div class="wrap">
         <div class="section-head">
           <div>
-            <div class="eyebrow">Por qué tiene potencial real</div>
-            <h2>En Colombia sí hay espacio para una herramienta que ayude a tomar mejores decisiones ganaderas.</h2>
+            <div class="eyebrow">Por qué esta propuesta se ajusta</div>
+            <h2>Una forma mucho más fácil de entrar, sin improvisar ni perder foco.</h2>
           </div>
           <p>
-            En el mercado colombiano todavía hay muchas fincas que manejan datos en cuaderno, Excel o por pura experiencia. Si esta herramienta ayuda a mejorar comida, peso, leche y margen, Carlos tendrá algo fácil de explicar, fácil de probar y con valor real para productores de distintos tamaños.
+            La propuesta se diseñará para que se vea algo muy claro: podrá empezar sin sentir que se está lanzando a una carga desmedida, pagará una primera etapa útil y visible, tendrá claridad real sobre lo que se entrega y mantendrá abierta la puerta para crecer después con más seguridad.
           </p>
         </div>
 
         <div class="grid-4">
           <article class="card metric-card">
-            <strong>+ROI</strong>
-            <h3>Más claridad sobre dónde se gana o se pierde plata</h3>
-            <p>En Colombia el costo de comida, suplemento y manejo aprieta duro. Si la herramienta ayuda a ajustar mejor la dieta, Carlos podrá mostrarle al ganadero dónde puede mejorar kilos, litros y rentabilidad.</p>
+            <div class="advantage-tag">Beneficio clave</div>
+            <strong>Entrada</strong>
+            <h3>Entrada mucho más manejable</h3>
+            <p>No tendrá que sacar de entrada los 22 millones completos para poder arrancar.</p>
           </article>
           <article class="card metric-card">
-            <strong>Método</strong>
-            <h3>La experiencia de Carlos convertida en sistema</h3>
-            <p>No será solo asesoría verbal. Será la forma de trabajar de Carlos pasada a una plataforma que pueda repetirse en varias fincas, con el mismo criterio técnico y el mismo sentido práctico de campo.</p>
+            <div class="advantage-tag">Beneficio clave</div>
+            <strong>Orden</strong>
+            <h3>Más claridad desde el día uno</h3>
+            <p>Quedará definido qué se hará primero, qué se dejará para después y cómo se medirá el avance real.</p>
           </article>
           <article class="card metric-card">
-            <strong>Web</strong>
-            <h3>Fácil de usar desde el celular en finca</h3>
-            <p>Muchos productores trabajan desde el teléfono. Entrar por web permitirá probar la herramienta en campo sin pedir instalaciones raras ni enredar al usuario con procesos técnicos innecesarios.</p>
+            <div class="advantage-tag">Beneficio clave</div>
+            <strong>Crecimiento</strong>
+            <h3>Escalamiento sin rehacer todo, es decir incorporar nuevas funciones</h3>
+            <p>Si la primera versión funciona, el proyecto podrá crecer por fases sin arrancar otra vez desde cero.</p>
           </article>
           <article class="card metric-card">
-            <strong>SaaS</strong>
-            <h3>Puede crecer en un mercado colombiano amplio</h3>
-            <p>Esto podrá arrancar con productores puntuales, pero también tendrá salida con asociaciones, integradores o grupos ganaderos que necesiten una herramienta práctica para mejorar decisiones productivas.</p>
+            <div class="advantage-tag">Beneficio clave</div>
+            <strong>Control</strong>
+            <h3>Pago alineado al avance real</h3>
+            <p>El residual no quedará en el aire: tendrá reglas claras y se moverá sobre facturación realmente cobrada.</p>
           </article>
         </div>
 
         <div class="card" style="margin-top: 18px;">
           <div class="section-head" style="margin-bottom: 14px;">
             <div>
-              <div class="eyebrow">Comparativo competitivo</div>
-              <h2 style="font-size: clamp(1.35rem, 2.5vw, 2rem); max-width:none;">El espacio que hoy nadie ocupa de forma comercial.</h2>
+              <div class="eyebrow">Lo que vuelve más atractiva esta propuesta</div>
+              <h2 style="font-size: clamp(1.35rem, 2.5vw, 2rem); max-width:none;">Se baja la fricción para Carlos, pero no se desordena el negocio.</h2>
             </div>
-            <p>La tabla muestra que el vacío no está en la administración del hato, sino en la optimización económica guiada por un método experto.</p>
+            <p>La idea será hacer más fácil la decisión, sin regalar el trabajo ni dejar huecos en el modelo de pago.</p>
           </div>
 
           <div style="overflow:auto;">
-            <table class="compare-table" aria-label="Comparativo de soluciones">
+            <table class="compare-table" aria-label="Comparativo de enfoque">
               <thead>
                 <tr>
-                  <th>Solución</th>
-                  <th>Enfoque</th>
-                  <th>Optimización económica</th>
-                  <th>Diferencia clave</th>
+                  <th>Punto</th>
+                  <th>Propuesta pesada</th>
+                  <th>Nueva propuesta</th>
+                  <th>Qué gana Carlos</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><strong>Software Ganadero SG</strong></td>
-                  <td>Control integral del hato</td>
-                  <td><span class="chip mid">Parcial</span></td>
-                  <td>Administra bien, pero no convierte el criterio del consultor en recomendaciones personalizadas.</td>
+                  <td><strong>Entrada</strong></td>
+                  <td>Alta desde el inicio</td>
+                  <td><span class="chip ok">Más ligera</span></td>
+                  <td>Menos presión de caja para tomar la decisión.</td>
                 </tr>
                 <tr>
-                  <td><strong>Control Ganadero</strong></td>
-                  <td>Registros, trazabilidad y pesajes</td>
-                  <td><span class="chip no">No</span></td>
-                  <td>Se enfoca en captura y consulta de datos, no en sugerencias expertas basadas en rentabilidad.</td>
+                  <td><strong>Alcance</strong></td>
+                  <td>Grande y más costoso</td>
+                  <td><span class="chip ok">Primera etapa enfocada</span></td>
+                  <td>Se empezará por lo que más valor dará.</td>
                 </tr>
                 <tr>
-                  <td><strong>PROGAN</strong></td>
-                  <td>ERP ganadero y operación administrativa</td>
-                  <td><span class="chip no">No</span></td>
-                  <td>Su fortaleza es la administración, no un motor de decisiones productivas.</td>
+                  <td><strong>Riesgo</strong></td>
+                  <td>Más alto para ambos</td>
+                  <td><span class="chip ok">Más controlado</span></td>
+                  <td>Menos improvisación y más orden.</td>
                 </tr>
                 <tr>
-                  <td><strong>DieTro (Agrosavia)</strong></td>
-                  <td>Balance nutricional bovino</td>
-                  <td><span class="chip mid">Parcial</span></td>
-                  <td>Es técnico y útil, pero no está diseñado como SaaS comercial con experiencia de mercado y acompañamiento.</td>
+                  <td><strong>Pagos</strong></td>
+                  <td>Más duros al principio</td>
+                  <td><span class="chip ok">Mejor distribuidos</span></td>
+                  <td>Podrá avanzar sin sentir que se ahoga al arrancar.</td>
                 </tr>
                 <tr>
-                  <td><strong>Identigan</strong></td>
-                  <td>RFID, trazabilidad y pesajes Bluetooth</td>
-                  <td><span class="chip no">No</span></td>
-                  <td>Captura datos operativos, pero no traduce esos datos en ajustes inteligentes de dieta.</td>
-                </tr>
-                <tr>
-                  <td><strong>Tu plataforma</strong></td>
-                  <td>Motor experto de optimización económica</td>
-                  <td><span class="chip ok">Sí · núcleo</span></td>
-                  <td>Será la única en digitalizar el método de Carlos con sugerencias de dieta y ROI visible como argumento central.</td>
+                  <td><strong>Formalización</strong></td>
+                  <td>A veces queda difusa</td>
+                  <td><span class="chip ok">Contrato completo</span></td>
+                  <td>Sabrá exactamente qué se entrega, qué paga y cuándo.</td>
                 </tr>
               </tbody>
             </table>
@@ -1332,185 +1228,187 @@
       <div class="wrap">
         <div class="section-head">
           <div>
-            <div class="eyebrow">Alcance del MVP</div>
-            <h2>Un producto enfocado, útil desde el día uno y listo para validar mercado.</h2>
+            <div class="eyebrow">Qué se hará primero</div>
+            <h2>Una primera versión que sí se pueda construir, mostrar y empezar a mover.</h2>
           </div>
           <p>
-            La idea no será construir una plataforma infinita desde el inicio, sino una primera versión precisa que capture el corazón del método, demuestre valor y prepare el terreno para crecer sin desperdiciar presupuesto.
+            La propuesta no arrancará intentando meter todo. La primera etapa se enfocará en lo esencial para validar rápido, mostrar utilidad real y dar una base visible sobre la cual valga la pena seguir invirtiendo.
           </p>
+        </div>
+
+        <div class="card" style="margin-bottom:18px; background: linear-gradient(135deg, rgba(21,128,61,0.08), rgba(251,191,36,0.10)); border:1px solid rgba(21,128,61,0.12);">
+          <div class="section-head" style="margin-bottom:10px; gap:12px;">
+            <div>
+              <div class="eyebrow">Cómo quedará formalizado</div>
+              <h2 style="font-size: clamp(1.2rem, 2.1vw, 1.7rem); max-width:none;">Se podrá manejar en un solo contrato con dos bloques claros.</h2>
+            </div>
+            <p>Un bloque dejará amarrado el desarrollo de la primera etapa. El otro dejará amarrado el modelo económico de mediano plazo: mensualidades, costos operativos, residual, reglas de liquidación y manejo de pausas o retrasos.</p>
+          </div>
         </div>
 
         <div class="grid-2">
           <article class="card">
-            <h3>Incluido en la primera versión</h3>
+            <h3>Incluido en esta primera etapa</h3>
             <ul class="scope-list">
-              <li>Registro de productores, fincas, lotes y animales individuales o grupales.</li>
-              <li>Carga de datos productivos clave: peso, dieta base, dieta complementaria y producción lechera si aplica.</li>
-              <li>Parametrización del método experto: indicadores, umbrales, reglas de decisión y ajustes.</li>
-              <li>Motor de recomendaciones v1.0 con sugerencias semiautomáticas de dieta.</li>
-              <li>Dashboard de KPIs: conversión alimenticia, costo/kg, costo/litro y ganancia diaria.</li>
-              <li>Historial de evolución por animal o lote con lectura antes/después.</li>
-              <li>Reportes exportables para respaldo de gestión.</li>
-              <li>Panel multiusuario con administración y acceso web responsive.</li>
+              <li>Definición del alcance real de la primera versión.</li>
+              <li>Estructura base de la plataforma y flujo principal.</li>
+              <li>Módulos clave enfocados en el valor central del proyecto.</li>
+              <li>Interfaz funcional para pruebas y validación inicial.</li>
+              <li>Versión lista para mostrar, probar y empezar a mover comercialmente.</li>
+              <li>Ajustes mínimos necesarios dentro de la etapa acordada.</li>
             </ul>
           </article>
 
           <article class="card">
-            <h3>Fuera del alcance inicial</h3>
+            <h3>Lo que quedará para etapas futuras</h3>
             <ul class="plan-list danger">
-              <li>Aplicación nativa en App Store o Google Play.</li>
-              <li>Integraciones con sensores IoT, RFID o pesajes Bluetooth.</li>
-              <li>Módulos de contabilidad, nómina o facturación.</li>
-              <li>Modelos avanzados de IA predictiva entrenados con histórico.</li>
-              <li>Marketplace, veterinaria completa o georreferenciación avanzada.</li>
-              <li>Soporte simultáneo para carne y leche en la misma cuenta desde el inicio.</li>
+              <li>Módulos extra que no hagan parte del núcleo inicial.</li>
+              <li>Automatizaciones avanzadas o integraciones complejas.</li>
+              <li>Expansión grande de funcionalidades desde el arranque.</li>
+              <li>Desarrollos no definidos en el alcance de la primera etapa.</li>
+              <li>Cambios nuevos por fuera de lo ya aprobado en contrato.</li>
             </ul>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="roadmap" class="section-shell tone-dark">
+    <section class="section-shell tone-dark">
       <div class="wrap">
         <div class="section-head">
           <div>
-            <div class="eyebrow">Roadmap de desarrollo</div>
-            <h2>Cuatro fases secuenciales, entregables concretos y trazabilidad de avance.</h2>
+            <div class="eyebrow">Cómo se moverá el desarrollo</div>
+            <h2>Etapas concretas, entregables concretos y menos incertidumbre.</h2>
           </div>
           <p>
-            La Fase 0 será obligatoria porque protege el proyecto: documenta el método, define el alcance real y evita construir algo bonito pero desconectado de la lógica experta que realmente da valor.
+            Así Carlos sentirá que no está pagando por una promesa suelta, sino por un proceso serio, con orden, tiempos, entregables y resultados visibles en cada tramo.
           </p>
         </div>
 
         <div class="grid-2">
           <div class="timeline">
-            <article class="phase" data-phase="0">
-              <div class="phase-top">
-                <h3>Descubrimiento</h3>
-                <span>2 semanas</span>
-              </div>
-              <p class="small">Entrevistas, captura de indicadores, definición de variables, elección del enfoque inicial y priorización del MVP.</p>
-            </article>
             <article class="phase" data-phase="1">
               <div class="phase-top">
-                <h3>Desarrollo MVP</h3>
-                <span>6–8 semanas</span>
+                <h3>Arranque y definición</h3>
+                <span>Inicio</span>
               </div>
-              <p class="small">Backend, base de datos, autenticación, módulos de animales y dietas, motor de recomendaciones y dashboard funcional.</p>
+              <p class="small">Se aterrizará el alcance, se definirán prioridades, flujo principal y entregables exactos de la primera etapa.</p>
             </article>
             <article class="phase" data-phase="2">
               <div class="phase-top">
-                <h3>Pilotaje y ajuste</h3>
-                <span>2–3 semanas</span>
+                <h3>Construcción</h3>
+                <span>Mes 1 y 2</span>
               </div>
-              <p class="small">Pruebas con datos reales, calibración de reglas, mejoras de usabilidad, depuración y documentación base.</p>
+              <p class="small">Se desarrollará la base funcional del producto según lo acordado, sin meter extras que distraigan el foco.</p>
             </article>
             <article class="phase" data-phase="3">
               <div class="phase-top">
-                <h3>Despliegue y lanzamiento</h3>
-                <span>1 semana</span>
+                <h3>Cierre de etapa</h3>
+                <span>Mes 3</span>
               </div>
-              <p class="small">Dominio, producción, capacitación a Carlos, entrega final y activación de uso real.</p>
+              <p class="small">Se entregará la primera versión pactada, lista para validación, uso inicial y siguientes decisiones.</p>
+            </article>
+            <article class="phase" data-phase="4">
+              <div class="phase-top">
+                <h3>Escalamiento</h3>
+                <span>Después</span>
+              </div>
+              <p class="small">Si el proyecto responde bien, se pasará a mejoras, nuevas etapas y crecimiento comercial ordenado.</p>
             </article>
           </div>
 
           <article class="card light-card" style="background: rgba(255,255,255,0.98);">
             <div class="section-head" style="margin-bottom: 14px;">
               <div>
-                <div class="eyebrow">Visualización del esfuerzo</div>
-                <h2 style="font-size: clamp(1.35rem, 2.4vw, 2rem); max-width:none;">Distribución relativa del trabajo por fase.</h2>
+                <div class="eyebrow">Lectura simple del esfuerzo</div>
+                <h2 style="font-size: clamp(1.35rem, 2.4vw, 2rem); max-width:none;">Dónde se concentrará el trabajo.</h2>
               </div>
             </div>
 
             <div class="bar-chart">
               <div class="bar-row">
-                <div class="bar-meta"><span>Fase 0 · Descubrimiento</span><span>15%</span></div>
-                <div class="bar-track"><div class="bar-fill" style="width:15%"></div></div>
+                <div class="bar-meta"><span>Definición y orden inicial</span><span>20%</span></div>
+                <div class="bar-track"><div class="bar-fill" style="width:20%"></div></div>
               </div>
               <div class="bar-row">
-                <div class="bar-meta"><span>Fase 1 · Desarrollo MVP</span><span>58%</span></div>
-                <div class="bar-track"><div class="bar-fill" style="width:58%"></div></div>
+                <div class="bar-meta"><span>Construcción funcional</span><span>55%</span></div>
+                <div class="bar-track"><div class="bar-fill" style="width:55%"></div></div>
               </div>
               <div class="bar-row">
-                <div class="bar-meta"><span>Fase 2 · Pilotaje</span><span>19%</span></div>
-                <div class="bar-track"><div class="bar-fill" style="width:19%"></div></div>
-              </div>
-              <div class="bar-row">
-                <div class="bar-meta"><span>Fase 3 · Despliegue</span><span>8%</span></div>
-                <div class="bar-track"><div class="bar-fill" style="width:8%"></div></div>
+                <div class="bar-meta"><span>Ajustes y cierre de etapa</span><span>25%</span></div>
+                <div class="bar-track"><div class="bar-fill" style="width:25%"></div></div>
               </div>
             </div>
 
             <div class="divider"></div>
             <p class="small" style="margin-top:16px; color: var(--ink-soft);">
-              Esta distribución dejará claro que la mayor parte del trabajo estará en construir el corazón útil de la herramienta. Primero se aterriza bien el método de Carlos y luego sí se programa, para no gastar plata en algo bonito pero flojo en campo.
+              Esto ayudará a dejar claro que el proyecto tendrá foco. Primero se define bien, luego se construye y después se cierra la etapa sin mezclar todo al mismo tiempo.
             </p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="inversion" class="section-shell tone-soft">
+    <section id="pagos" class="section-shell tone-soft">
       <div class="wrap">
         <div class="section-head">
           <div>
-            <div class="eyebrow">Inversión y opciones de pago</div>
-            <h2>Opciones claras de inversión con estructura, tiempos y compromiso económico bien definidos.</h2>
+            <div class="eyebrow">Propuesta económica</div>
+            <h2>Un esquema de pago serio, práctico y mucho más fácil de aceptar.</h2>
           </div>
           <p>
-            Aquí se presentarán las tres modalidades de contratación de forma comparativa y detallada. La intención será que Carlos vea con total claridad cuánto se paga al inicio, cómo se distribuye el desarrollo, qué pasa con el mantenimiento y cuál será el total comprometido en cada camino.
+            El objetivo será que el proyecto pueda arrancar sin ahogar, pero también sin dejar el desarrollo sin piso. Por eso la propuesta mezclará una entrada razonable, una mensualidad clara, costos operativos por fuera y un residual limitado en el tiempo y bien documentado.
           </p>
         </div>
 
         <div class="card" style="margin-bottom: 18px;">
           <div class="section-head" style="margin-bottom: 14px;">
             <div>
-              <div class="eyebrow">Lectura comparativa</div>
-              <h2 style="font-size: clamp(1.35rem, 2.5vw, 2rem); max-width:none;">Resumen detallado de las opciones de inversión.</h2>
+              <div class="eyebrow">Resumen económico</div>
+              <h2 style="font-size: clamp(1.35rem, 2.5vw, 2rem); max-width:none;">Así quedará la estructura de pago.</h2>
             </div>
-            <p>La Opción C se resaltará como recomendada por su menor barrera de entrada y su estructura de crecimiento progresivo.</p>
+            <p>Una propuesta cómoda de leer y fácil.</p>
           </div>
 
           <div style="overflow:auto;">
-            <table class="compare-table" aria-label="Opciones de inversión">
+            <table class="compare-table" aria-label="Estructura de pago">
               <thead>
                 <tr>
                   <th>Concepto</th>
-                  <th>Opción A · Pago por fases</th>
-                  <th>Opción B · Llave en mano</th>
-                  <th>Opción C · Híbrida (Recomendada)</th>
+                  <th>Valor / regla</th>
+                  <th>Qué significa</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td><strong>Pago inicial</strong></td>
-                  <td>COP 4.400.000 <br><small>(Fase 0)</small></td>
-                  <td>COP 24.500.000 <br><small>(pago único)</small></td>
-                  <td><strong>COP 7.500.000</strong></td>
+                  <td><strong>Arranque inicial</strong></td>
+                  <td>$1.500.000 COP</td>
+                  <td>Se usará para aterrizar bien la primera etapa y dejar el proyecto listo para empezar con orden.</td>
                 </tr>
                 <tr>
-                  <td><strong>Fases de desarrollo</strong></td>
-                  <td>3 pagos por hito: <br>50% = COP 11.000.000 <br>30% = COP 6.600.000 <br>20% = COP 4.400.000</td>
-                  <td>1 pago total ante entrega</td>
-                  <td>Anticipo + 3 pagos de <strong>COP 2.200.000/mes</strong></td>
+                  <td><strong>Desarrollo mensual</strong></td>
+                  <td>$2.800.000 COP por 3 meses</td>
+                  <td>Será el piso que permitirá construir la primera versión sin improvisar.</td>
                 </tr>
                 <tr>
-                  <td><strong>Total desarrollo</strong></td>
-                  <td>COP 22.000.000</td>
-                  <td>COP 24.500.000</td>
-                  <td>COP 7.500.000 de inicio</td>
+                  <td><strong>Costos operativos</strong></td>
+                  <td>Aparte</td>
+                  <td>Servidor, dominio, base de datos y servicios se pagarán por fuera del desarrollo.</td>
                 </tr>
                 <tr>
-                  <td><strong>Mantenimiento mensual</strong></td>
-                  <td>COP 600.000/mes <br><small>por un año</small></td>
-                  <td>Plan separado post-entrega</td>
-                  <td>10% de facturación/mes <br><small>por 2 años</small></td>
+                  <td><strong>Residual de recuperación</strong></td>
+                  <td>15% de la facturación cobrada</td>
+                  <td>Aplicará hasta completar los $22.000.000 COP del valor reconocido del proyecto.</td>
                 </tr>
                 <tr>
-                  <td><strong>Total</strong></td>
-                  <td><strong>~ COP 22.000.000 + mantenimiento</strong></td>
-                  <td><strong>COP 24.500.000</strong></td>
-                  <td><strong>~ COP 14.100.000</strong></td>
+                  <td><strong>Residual posterior</strong></td>
+                  <td>10% por 12 meses</td>
+                  <td>Después de recuperar los 22 millones, quedará un residual razonable por continuidad y valor creado.</td>
+                </tr>
+                <tr>
+                  <td><strong>Opción de extensión</strong></td>
+                  <td>Hasta 24 meses</td>
+                  <td>Solo si ambos están de acuerdo y el negocio demuestra buen movimiento.</td>
                 </tr>
               </tbody>
             </table>
@@ -1519,153 +1417,134 @@
 
         <div class="pricing-grid">
           <article class="price-card">
-            <div class="price-badge">Opción A</div>
-            <h3>Pago por fases</h3>
-            <div class="amount">COP 4,4 M <small>inicio Fase 0</small></div>
-            <p class="sub">Esta opción servirá para distribuir el desarrollo por hitos claros y mantener control del avance en cada etapa del proyecto.</p>
+            <div class="price-badge">Paso 1</div>
+            <h3>Arranque</h3>
+            <div class="amount">$1,5 M <h3><mediana>una vez</mediana></h3></div>
+            <p class="sub">Este pago abrirá la etapa de definición, priorización y aterrizaje del alcance real del proyecto.</p>
             <ul class="bullet-list">
-              <li>Pago inicial: COP 4.400.000 correspondiente a la Fase 0.</li>
-              <li>Desarrollo distribuido en 3 pagos por hito.</li>
-              <li>Hito 1: 50% = COP 11.000.000.</li>
-              <li>Hito 2: 30% = COP 6.600.000.</li>
-              <li>Hito 3: 20% = COP 4.400.000.</li>
-              <li>Total de desarrollo: COP 22.000.000.</li>
-              <li>Mantenimiento: COP 600.000 al mes durante 1 año.</li>
+              <li>Sirve para organizar el proyecto antes de programar.</li>
+              <li>Evita arrancar a ciegas o por suposiciones.</li>
+              <li>Deja lista la hoja de ruta de la primera versión.</li>
             </ul>
-            <div class="price-note">Total referencial: ~ COP 22.000.000 más mantenimiento. Será la ruta adecuada cuando se quiera validar y aprobar fase por fase.</div>
-          </article>
-
-          <article class="price-card">
-            <div class="price-badge">Opción B</div>
-            <h3>Llave en mano</h3>
-            <div class="amount">COP 24,5 M <small>pago único</small></div>
-            <p class="sub">Esta opción condensará todo el proyecto en una sola decisión económica y simplificará completamente la administración del pago.</p>
-            <ul class="bullet-list">
-              <li>Pago inicial y total: COP 24.500.000.</li>
-              <li>Modelo de pago: un solo desembolso.</li>
-              <li>Fases de desarrollo: 1 pago total ante entrega.</li>
-              <li>Total desarrollo: COP 24.500.000.</li>
-              <li>Mantenimiento: plan separado post-entrega.</li>
-              <li>Total final: COP 24.500.000.</li>
-            </ul>
-            <div class="price-note">Será la opción más simple de entender y ejecutar cuando se quiera cerrar el proyecto completo sin pagos fraccionados.</div>
+            <div class="price-note">A Carlos le baja la presión de entrada y le da una sensación inmediata de control.</div>
           </article>
 
           <article class="price-card featured">
-            <div class="price-badge">Opción C · recomendada</div>
-            <h3>Híbrida</h3>
-            <div class="amount">COP 7,5 M <small>inicio</small></div>
-            <p class="sub">Esta opción bajará la barrera de entrada, hará más liviano el arranque del proyecto y alineará mejor el crecimiento del desarrollo con la evolución comercial futura.</p>
+            <div class="price-badge">Paso 2 · principal</div>
+            <h3>Desarrollo de la primera etapa</h3>
+            <div class="amount">$2,8 M <h3><mediana>por mes · 3 meses</mediana></h3></div>
+            <p class="sub">Esta será la base fija para construir la primera versión con orden, foco y continuidad real.</p>
             <ul class="bullet-list">
-              <li>Pago inicial: COP 7.500.000.</li>
-              <li>Desarrollo: anticipo más 3 pagos de COP 2.200.000 por mes.</li>
-              <li>Total comprometido de entrada: ~ COP 14.100.000.</li>
-              <li>Mantenimiento y continuidad: 10% de facturación mensual.</li>
-              <li>Duración del esquema variable: 2 años.</li>
-              <li>Permite arrancar más rápido con menor presión financiera inicial.</li>
+              <li>Piso mensual claro y sin enredos.</li>
+              <li>Permite avanzar sin depender de promesas futuras.</li>
+              <li>Da estabilidad al desarrollo y al cumplimiento.</li>
+              <li>Evita que el proyecto se vuelva una carga desordenada para ambas partes.</li>
             </ul>
-            <div class="price-note">Será la opción recomendada porque combina entrada más accesible, continuidad operativa y una estructura más flexible para crecer.</div>
+            <div class="price-note">Carlos verá una primera versión concreta, entendible y defendible, no una promesa gigante difícil de absorber.</div>
+          </article>
+
+          <article class="price-card">
+            <div class="price-badge">Paso 3</div>
+            <h3>Residual</h3>
+            <div class="amount">15% / 10% <mediana><h3>por etapas</mediana></h3></div>
+            <p class="sub">El residual se dividirá en dos momentos para que sea justo, entendible y medible.</p>
+            <ul class="bullet-list">
+              <li>15% hasta completar el valor reconocido del proyecto.</li>
+              <li>Luego 10% por 12 meses.</li>
+              <li>Prórroga a 24 meses solo si ambos la aceptan.</li>
+            </ul>
+            <div class="price-note">Así Carlos no cargará todo al principio y, al mismo tiempo, el proyecto seguirá teniendo una ruta seria de recuperación.</div>
           </article>
         </div>
 
         <div class="grid-2" style="margin-top:18px;">
           <article class="card">
-            <h3>Cómo leer esta sección</h3>
+            <h3>Condición importante</h3>
             <ul class="bullet-list">
-              <li>La Opción A priorizará control por hitos y validación progresiva.</li>
-              <li>La Opción B priorizará simplicidad contractual y cierre total.</li>
-              <li>La Opción C priorizará accesibilidad inicial y escalamiento financiero más suave.</li>
-             </ul>
+              <li>Los costos operativos no irán incluidos dentro del desarrollo.</li>
+              <li>El residual se calculará sobre facturación realmente cobrada.</li>
+              <li>Todo el esquema quedará escrito en contrato para que no haya interpretaciones sueltas.</li>
+            </ul>
           </article>
           <article class="revenue-box">
-            <strong>La diferencia no estará solo en el precio, sino en la forma de asumir el proyecto.</strong>
-            <p class="small">Esta lectura comparativa ayudará a entender cuál esquema protege mejor el flujo de caja, cuál simplifica la negociación y cuál favorece el arranque inmediato sin frenar la decisión.</p>
+            <strong>La lógica es simple: a Carlos se le hará más fácil entrar, pero el proyecto seguirá siendo serio, claro y rentable.</strong>
+            <p class="small">Eso volverá la propuesta más convincente, más defendible y mucho más sana a mediano plazo.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="monetizacion" class="section-shell tone-light">
+    <section id="contrato" class="section-shell tone-light">
       <div class="wrap">
         <div class="section-head">
           <div>
-            <div class="eyebrow">Cómo monetizar la plataforma</div>
-            <h2>Del método experto a un activo digital que puede pagarse solo.</h2>
+            <div class="eyebrow">Formalización clara y completa</div>
+            <h2>Todo quedará amarrado en contrato, tanto el desarrollo como los pagos de mediano plazo.</h2>
           </div>
           <p>
-            La propuesta no se quedará en desarrollo. La experiencia visual también presentará una lógica clara de negocio para que el lector vea rutas reales de retorno y expansión.
+            Aquí convendrá ser muy claro: no solo se firmará el desarrollo. También se dejará por escrito cómo funcionarán los pagos de mediano plazo, cómo se liquidará el residual, qué costos operativos van por fuera y qué responsabilidades asumirá cada parte. Así Carlos sabrá exactamente a qué entra, qué recibe y bajo qué reglas se moverá el proyecto.
           </p>
         </div>
 
-        <div class="grid-3">
+        <div class="grid-2">
           <article class="card">
-            <span class="pill-number">01</span>
-            <h3>Suscripción por finca</h3>
-            <p>La vía más simple para empezar: planes por nivel de acceso, funcionalidades y acompañamiento.</p>
-            <div class="price-note">Básico: COP 300.000–350.000 · Pro: COP 600.000–700.000 · Experto: COP 1.200.000.</div>
+            <h3>Lo que deberá quedar claro en el contrato de desarrollo</h3>
+            <ul class="scope-list">
+              <li>Qué incluye exactamente la primera etapa y qué no incluye.</li>
+              <li>Tiempos estimados y forma de trabajo del desarrollo.</li>
+              <li>Responsabilidades de William en diseño, construcción y entrega de la etapa acordada.</li>
+              <li>Responsabilidades de Carlos en entregar información, validar avances y tomar decisiones a tiempo.</li>
+              <li>Forma de aprobación de entregables y manejo de ajustes.</li>
+              <li>Reglas para cambios nuevos por fuera del alcance inicial.</li>
+            </ul>
+            <div class="contract-mini">Esto protegerá a ambas partes: Carlos sabrá qué recibe y William sabrá hasta dónde llega la etapa contratada.</div>
           </article>
+
           <article class="card">
-            <span class="pill-number">02</span>
-            <h3>Suscripción por cabeza</h3>
-            <p>Permite que las fincas pequeñas entren fácil y que las grandes paguen de forma proporcional al volumen real de uso.</p>
-            <div class="price-note">Escala natural con el tamaño del hato y mantiene una lógica comercial defendible.</div>
-          </article>
-          <article class="card">
-            <span class="pill-number">03</span>
-            <h3>Licencia B2B para asociaciones</h3>
-            <p>La ruta más rentable a mediano plazo si se logra empaquetar bien la narrativa de productividad y asistencia experta.</p>
-            <div class="price-note">Un solo contrato puede abrir el acceso a decenas o cientos de fincas.</div>
+            <h3>Lo que deberá quedar claro en el contrato económico y de pagos de mediano plazo</h3>
+            <ul class="scope-list">
+              <li>Valor del arranque inicial y fecha de pago.</li>
+              <li>Valor mensual de $2.800.000 COP y número de meses pactados.</li>
+              <li>Separación de costos operativos como servidor, dominio y servicios externos.</li>
+              <li>Regla exacta del 15% hasta recuperar los $22.000.000 COP.</li>
+              <li>Regla del 10% posterior durante 12 meses y posible extensión.</li>
+              <li>Qué pasa si se retrasa un pago o si el proyecto se pausa.</li>
+            </ul>
+            <div class="contract-mini">Esto evitará malentendidos a futuro: el residual no quedará hablado “de confianza”, sino firmado, medible y verificable.</div>
           </article>
         </div>
 
-        <div class="grid-2" style="margin-top:18px;">
+        <div class="grid-3" style="margin-top:18px;">
           <article class="card">
-            <div class="section-head" style="margin-bottom: 12px;">
-              <div>
-                <div class="eyebrow">Proyección rápida</div>
-                <h2 style="font-size: clamp(1.35rem, 2.5vw, 2rem); max-width:none;">Visual de recuperación potencial.</h2>
-              </div>
-            </div>
-            <div class="bar-chart">
-              <div class="bar-row">
-                <div class="bar-meta"><span>10 clientes plan básico</span><span>COP 3,3 M/mes</span></div>
-                <div class="bar-track"><div class="bar-fill" style="width:33%"></div></div>
-              </div>
-              <div class="bar-row">
-                <div class="bar-meta"><span>20 clientes plan básico</span><span>COP 6,6 M/mes</span></div>
-                <div class="bar-track"><div class="bar-fill" style="width:66%"></div></div>
-              </div>
-              <div class="bar-row">
-                <div class="bar-meta"><span>30 clientes plan básico</span><span>+COP 10 M/mes</span></div>
-                <div class="bar-track"><div class="bar-fill" style="width:100%"></div></div>
-              </div>
-            </div>
+            <span class="pill-number">01</span>
+            <h3>Responsabilidad de desarrollo</h3>
+            <p>William responderá por construir y entregar la etapa acordada, con el alcance definido y dentro del esquema pactado.</p>
           </article>
-
           <article class="card">
-            <h3>Por qué esta propuesta será diferente</h3>
-            <ul class="bullet-list">
-              <li>No se presentará como “otra app ganadera”, sino como la digitalización de una ventaja competitiva.</li>
-              <li>Se apoyará en reglas expertas reales, no en promesas vacías de IA mágica.</li>
-              <li>La Fase 0 funciona como mecanismo de protección metodológica.</li>
-              <li>Se comunicará con lenguaje de mercado, claridad visual y narrativa de retorno.</li>
-            </ul>
+            <span class="pill-number">02</span>
+            <h3>Responsabilidad de cliente</h3>
+            <p>Carlos responderá por pagos, validaciones, información y decisiones necesarias para no frenar el avance.</p>
+          </article>
+          <article class="card">
+            <span class="pill-number">03</span>
+            <h3>Responsabilidad financiera</h3>
+            <p>Ambas partes dejarán por escrito cómo se liquidará el residual, cómo se comprobará la facturación cobrada y qué pasará si el proyecto entra en pausa, crece o cambia de ritmo.</p>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="contacto" class="section-shell tone-soft">
+    <section id="siguientes" class="section-shell tone-soft">
       <div class="wrap">
         <article class="cta">
-          <div class="eyebrow">Próximos pasos</div>
-          <h2>Elegir opción, firmar y arrancar la Fase 0.</h2>
+          <div class="eyebrow">Cierre propuesto</div>
+          <h2>Si a Carlos le hace sentido, el siguiente paso será simple y sin enredos.</h2>
           <p>
-            La lectura visual de esta propuesta busca llevar al siguiente paso natural: elegir la modalidad de inversión, formalizar la confidencialidad y comenzar la captura rigurosa del método experto para convertirlo en producto digital. Aquí no se venderá humo. Se venderá estructura, claridad y ejecución.
+            Se aprueba esta estructura, se firma el contrato con el bloque de desarrollo y el bloque económico bien definidos, se hace el arranque inicial y se comienza la etapa de aterrizaje. Así Carlos entrará con más tranquilidad, el proyecto arrancará con orden y todo quedará protegido tanto en lo técnico como en lo económico.
           </p>
           <div class="cta-actions">
-            <a class="btn btn-primary" href="mailto:aliantlab@gmail.com?subject=Quiero%20avanzar%20con%20la%20propuesta%20ganadera">Solicitar inicio</a>
-            <a class="btn" href="tel:3195653135">319 565 3135</a>
+            <a class="btn btn-primary" href="#pagos">Revisar pagos otra vez</a>
+            <a class="btn" href="#contrato">Revisar contrato</a>
           </div>
         </article>
       </div>
@@ -1675,11 +1554,11 @@
   <footer class="footer">
     <div class="wrap footer-box">
       <div>
-        <strong style="display:block; color: var(--ink); margin-bottom:6px;">William Pardo</strong>
-        <span>Especialista en IA · Diseñador · Growth Partner</span>
+        <strong style="display:block; color: var(--ink); margin-bottom:6px;">Propuesta comercial optimizada</strong>
+        <span>Versión 2.0</span>
       </div>
       <div>
-        <span>Bogotá D.C. · marzo 2026 </span>
+        <span>Bogotá D.C. · marzo 2026 · </span>
       </div>
     </div>
   </footer>
@@ -1691,10 +1570,10 @@
 
   <script>
     window.APP_CONFIG = {
-      GA_MEASUREMENT_ID: "",
-      CONFIDENTIAL_LABEL: "CONFIDENCIAL · USO EXCLUSIVO",
+      CONFIDENTIAL_LABEL: "PROPUESTA PRIVADA · CARLOS",
       ENABLE_PROTECTION: true
     };
+
     (function enableProtection() {
       if (!window.APP_CONFIG || !window.APP_CONFIG.ENABLE_PROTECTION) return;
       const banner = document.getElementById('securityBanner');
@@ -1757,17 +1636,8 @@
         showBanner('La impresión está deshabilitada en esta versión.');
         if (e && typeof e.preventDefault === 'function') e.preventDefault();
       });
-
-      const secureAction = document.getElementById('secureAction');
-      if (secureAction) {
-        secureAction.addEventListener('click', () => {
-          showBanner('Capa de protección activa: selección, copia e impresión restringidas.');
-        });
-      }
     })();
   </script>
 </body>
 </html>
-
-
 
